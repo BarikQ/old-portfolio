@@ -1,0 +1,259 @@
+body{
+    background: #e1e1e0;
+}
+
+.header{
+    height: 150px;
+    padding-top: 40px;
+}
+
+.header ul{
+    
+}
+
+.links{
+    
+}
+
+.links li:hover{
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    background-color: #e1e1e0;
+}
+
+.button{
+    
+}
+
+.button:hover{
+    background-color: #e1e1e0;
+}
+
+.logo{
+    margin-left: -177.5px;
+}
+
+.logo:hover{
+    background-color: #e1e1e0;
+}
+
+.photos{
+    background: url("img/photos/photos-bg-3.png") 100% 50% no-repeat #e0e1e0;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+.photos img{
+    border: white solid 5px;
+    width: 255px;
+    height: 255px;
+}
+
+.row2{
+    margin-top: 25px;
+}
+
+.learnMore{
+    background-color: white;
+    margin-top: 65px;
+    height: 385px;
+    padding: 65px 0px 65px 0px;
+}
+
+.learnMoreButton{
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnMoreButton div{
+    background-color: #202020;
+    color: white;
+    height: 45px;
+    width: 190px;
+}
+
+.learnMoreButton p{
+    display: flex;
+    margin-top: 9px;
+}
+
+.learnMoreButton div:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+.bigShit{
+    background-color: #e1e1e0;
+    height: 950px;
+    margin-top: 65px;
+}
+
+.post{
+    background-color: black;
+    height: 150px;
+}
+
+.menu{
+    background-color: red;
+    height: 150px;
+}
+
+.ph{
+    filter: grayscale(0.8);
+    position: relative;
+}
+
+.reviews{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    background-color: #fff;
+    height: 25%;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    opacity: 0;
+    -webkit-tansition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.ph:hover{
+    filter: none;
+}
+
+.ph:hover .reviews{
+    opacity: 1;
+    bottom: 2%;
+}
+
+.description{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 25%;
+    width: 100%;
+    opacity: 0;
+    -webkit-tansition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    color: white;
+    padding: 5px 10px 0 5px;
+}
+
+.photoTxt{
+    text-align: left;
+    float: left;
+}
+
+.photoData{
+    float: right;
+    text-align: right;
+}
+
+.ph:hover .description{
+    opacity: 1;
+    top: 2%;
+}
+
+.reviews input{
+    display: none;
+}
+
+.hearth{
+    position: absolute;
+    bottom: 20%;
+    left: 0%;
+    filter: grayscale(1);
+    transition: .25s;
+}
+
+.hearth img{
+    height: 30px;
+    width: 30px;
+}
+
+#likes1:checked +label .hearth{
+    filter: none;
+}
+
+#likes2:checked +label .hearth{
+    filter: none;
+}
+
+#likes3:checked +label .hearth{
+    filter: none;
+}
+
+#likes4:checked +label .hearth{
+    filter: none;
+}
+
+#likes5:checked +label .hearth{
+    filter: none;
+}
+
+#likes6:checked +label .hearth{
+    filter: none;
+}
+
+#likes7:checked +label .hearth{
+    filter: none;
+}
+
+#likes8:checked +label .hearth{
+    filter: none;
+}
+
+label { 
+	cursor: pointer;
+}
+
+.commentI{
+    position: absolute;
+    bottom: 11%;
+    left: 25%;
+    filter: grayscale(1);
+    transition: .25s;
+}
+
+.commentI img{
+    height: 40px;
+    width: 40px;
+}
+
+#comments1:checked +label .commentI{
+    filter: none;
+}
+
+#comments2:checked +label .commentI{
+    filter: none;
+}
+
+#comments3:checked +label .commentI{
+    filter: none;
+}
+
+#comments4:checked +label .commentI{
+    filter: none;
+}
+
+#comments5:checked +label .commentI{
+    filter: none;
+}
+
+#comments6:checked +label .commentI{
+    filter: none;
+}
+
+#comments7:checked +label .commentI{
+    filter: none;
+}
+
+#comments8:checked +label .commentI{
+    filter: none;
+}
