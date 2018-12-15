@@ -1,0 +1,263 @@
+
+	@font-face{
+	font-family: Tangerine;
+	src: url(fonts/Tang/Tangerine-Regular.ttf);
+	}
+	@font-face	{
+	font-family: Courgette;
+	src: url(fonts/Cour/Courgette-Regular.ttf);
+	}
+
+	html{
+  	position: relative;
+  	min-height: 100%;
+	}	
+
+	body{
+	background-size: cover;
+	background-color: black;
+	background-attachment: fixed;
+	}
+	
+	.navigationMenu ul{
+	margin-top:50px;
+	}
+	
+	li { 
+	color: white;
+	}
+	
+	a{
+	color: white;
+	text-decoration: none;
+	}
+
+
+	.hidden-menu {
+	display: block;
+	position: fixed;
+	list-style:none;
+	padding: 10px;
+	margin: 0;
+	box-sizing: border-box;
+	width: 200px;
+	height: 100%;
+	top: 0;
+	left: -200px;
+	transition: left .2s;
+	z-index: 2;
+	-webkit-transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	background: rgba(0, 0, 0, 0.6);
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	}	
+
+	.navigationMenu{
+	font-size: 125%;
+	font-family: Courgette;
+	margin-top: 40px;
+	}
+	
+	.hidden-menu-ticker {
+	display: none;
+	}
+	
+	.btn-menu {
+	color: #fff;
+	/*background-color: #666;*/
+	padding: 5px;
+	position: fixed;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+	transition: left .23s;
+	z-index: 3;
+	width: 34px;
+	-webkit-transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	}
+	
+	.btn-menu span {
+	display: block;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px 0 0;
+	transition: all .1s linear .23s;
+	position: relative;
+	}
+	
+	.btn-menu span.first {
+	margin-top: 0;
+	}
+	
+	.hidden-menu-ticker:checked ~ .btn-menu {
+	left: 160px;
+	}
+	
+	.hidden-menu-ticker:checked ~ .hidden-menu {
+	left: 0;
+	}
+	
+	.hidden-menu-ticker:checked ~ .btn-menu span.first {
+	-webkit-transform: rotate(45deg);
+	top: 10px;
+	}
+	
+	.hidden-menu-ticker:checked ~ .btn-menu span.second {
+	opacity: 0;
+	}
+	
+	.hidden-menu-ticker:checked ~ .btn-menu span.third {
+	-webkit-transform: rotate(-45deg);
+	top: -10px;
+	}
+	
+	.fon{
+	border-radius: 15px;
+	width:72%;
+	/*height:100%;*/
+	color: white;
+	background: rgba(0, 0, 0, 0.6);
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	border: 1px solid #5e5e5e;
+	margin: 20px 0 250px 15%;
+	padding-right: 50px;
+	}
+
+
+	.txt{
+	font-family: Courgette;
+	font-size: 120%;
+	margin-left: 40px;
+	}
+
+	.bottom-bar
+	{
+	height: 0px;
+	width: 100%;
+  	background-color: #002a32;
+   	color: #fff;
+  	margin-top: 30px;
+  	position: absolute;
+  	bottom:0;
+  	left:0;
+	}
+
+	.video {
+	width: 800px;
+	height: 480px;
+	margin-bottom: 50px;
+	 }
+
+	.links{
+	padding-left: 8px;
+	position: fixed;
+	bottom:10px;
+	}
+
+	.head {
+	font-family: Courgette;
+	font-size: 40px;
+	padding-top: 30px;
+	font-weight: 900px;
+	}
+
+	.separator{
+	background-color: #5e5e5e;
+    border: 0;
+    height: 1px;
+    margin-bottom: 18px;
+    margin-top: 0px;
+    width: 80%;
+	}
+
+	/*ul.navigationMenu a:hover{
+	color: #c1b4b4;
+	}*/
+
+	a:hover{
+	color: #c1b4b4;
+	}
+
+	.tableInfo{
+	float: right;
+	margin-left: 10px;
+	color: white;
+	width: 250px;
+	}
+
+
+	.backTable{
+	background: #002a32;
+	border: 1px solid #000000;
+	text-align: center;
+	}
+
+	.txtTable{
+	border: 1px solid #000000;
+	font-size: 77%;
+	}
+
+	.videoBlock{
+	margin-bottom: 20px; 
+	margin-left: 120px;
+	margin-top: 45px;
+	}
+
+	.listFeatures li{
+	margin-bottom: 8px;	
+	}
+
+	.mapFigure{
+		width: 180px;
+		float:right;
+	}
+
+	.caption{
+		font-size: 77%;
+	}
+
+	.gameEditionTable{
+		width: 1px;
+		float: right;
+		border: double #5a5a5c;
+	}
+
+	.gameEditionImg{
+		padding: 1px;
+	}
+
+	.navigationList li{
+		margin-top: -23px;
+	}
+
+	.navigationList pre{
+		margin-top: -90px;
+	}
+
+	.navigationList{
+		margin-left: 54px;
+		margin-top: 25px;
+	}
+
+	.navigationTop{
+		position: fixed;
+		bottom: 0px;
+		left: 245px;
+		width: 40px;
+		height: 40px;
+	}
+
+	summary::-webkit-details-marker {
+  	display: none;
+	}
+	
+	.otherProjects{
+	position: absolute;
+	bottom: 65px;
+	left: 36px;
+	font-size: 125%;
+	font-family: Courgette;
+	}
