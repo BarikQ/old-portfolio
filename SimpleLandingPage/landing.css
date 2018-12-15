@@ -1,0 +1,415 @@
+@font-face{
+	font-family: Tangerine;
+	src: url(../fonts/Tang/Tangerine-Regular.ttf);
+}
+
+@font-face	{
+	font-family: Courgette;
+	src: url(../fonts/Cour/Courgette-Regular.ttf);
+}
+
+div * {
+	padding: 0 0 0 0 ;
+	margin: 0 0 0 0;
+}
+
+body{
+	background: white;
+}
+
+header{
+	color: rgb(255, 255, 255);
+	background: rgb(68, 81, 98);
+	padding: 50px 0 50px 0;
+}
+
+header h1{
+	margin-top: -10px;
+}
+
+.header-img img{
+	height: 220px;
+	width: 470px;
+	float: right;
+	border-radius: 5px;
+}
+
+.check{
+	margin-top: 35px;
+	font-size: 130%;
+}
+
+ul{
+	margin-left: 0;
+}
+
+.check li {
+	list-style-type: none; 
+	margin-bottom: 5px;
+}
+
+.aboutBlock{
+	padding: 50px 0 50px 0;
+	color: rgb(68, 81, 98);
+}
+
+.aboutBlock h1{
+	margin-top: -10px;
+}
+
+.about-txt p{
+	font-size: 115%;
+}
+
+.aboutBlock-img img{
+	height: 230px;
+	width: 430px;
+	float: right;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.plusesBlock{
+	background-color: #f5f5f5;
+	padding: 50px 0 50px 0;
+	color: rgb(68, 81, 98);
+}
+
+.plusesBlock h1{
+	text-align: center;
+}
+
+.pluses-left{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.pluses-right{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.plus{
+	margin-bottom: 5px;
+	margin-left: -15px;
+}
+
+.plus-table{
+	margin-top: 25px;
+	margin-left: -30px;
+}
+
+.pluses-txt{
+	margin-top: -6px;
+	font-size: 104%;
+}
+
+.screenshotsBlock{
+	background-color: #fff;
+	padding: 50px 0 50px 0;
+	color: rgb(68, 81, 98);
+}
+
+.screenshotsBlock h1{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.screenshotsBlock img{
+	height: 130px;
+	width: 200px;
+	border-radius: 5px;
+	float: left;
+	margin-left: -15px;
+}
+
+.shots-left{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.shots-right{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.shots-txt{
+	margin-top: -6px;
+	font-size: 104%;
+}
+
+.user img{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	margin-left: -15px;
+}
+
+.reviewsBlock{
+	background-color: #f5f5f5;
+	padding: 50px 0 50px 0;
+	color: rgb(68, 81, 98);
+} 
+
+.reviews-txt{
+	background-image: url(img/review.png);
+	width: 100%;
+	height: 150px;
+	background-repeat: no-repeat;
+	margin: -15px 0 0 -10px;
+	padding: 15px 0 0 0px;
+}
+
+.reviews-left{
+	display: flex;
+}
+
+.reviews-right{
+	display: flex;
+}
+
+h1{
+	text-align: center;
+}
+
+.buyBlock{
+	background-color: #fff;
+	padding: 50px 0 150px 0;
+	color: rgb(68, 81, 98);
+	height: 650px;
+}
+
+.priceBlock{
+	width: 250px;
+	background-color: rgb(68, 81, 98);
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	border-radius: 5px;
+	color: white;
+	justify-content: center;
+	padding: 15px 0px 8px 0px;
+}
+  
+.priceBlock h4{
+	text-align: center;
+}
+  
+.lane{
+	display: flex;
+	background-color: white;
+	margin-left: 2%;
+	border-radius: 2px;
+	width: 96%;
+	height: 60px;
+	color: rgb(68, 81, 98);
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px; 
+}
+  
+.laneBuy{
+	display: flex;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 2px;
+	width: 90%;
+	height: 60px;
+	color: rgb(68, 81, 98);;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px; 
+}
+  
+.priceBlock h2{
+	display: flex;
+}
+
+.list ol{
+	  margin-top: 5px;
+	  margin-left: 12px;
+}
+  
+.list li{
+	margin-top: 5px;
+	list-style-type: decimal; 
+	font-size: 80%;
+	list-style-position: inside;
+}
+  
+.laneBuy:hover{
+	background-color: rgb(255, 255, 255, 0.15);
+  	color: white; 
+  	cursor: pointer;
+}
+
+.copyright{
+	display: flex;
+	background-color: rgb(68, 81, 98);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0px;
+	margin-bottom: -15px;
+}
+
+.copyright-txt{
+	display: flex;
+}
+
+.contactsBlock{
+	background-color: rgb(68, 81, 98);
+	padding-top: 50px;
+	color: white;
+	padding-bottom: 50px;
+}
+
+.fields{
+	margin-top: 10px;
+}
+
+.emailField{
+  margin-top: 50px;
+}
+
+.messageField{
+  margin-top: 50px;
+}
+
+textarea{
+  width: 325px;
+}
+
+#name{
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+}
+
+#email{
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+}
+
+#message{
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+}
+
+.menuButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#contactsButton{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  color: rgb(68, 81, 98);
+  background-color: white;
+}
+
+#contactsButton:hover{
+	background-color: rgb(255, 255, 255, 0.15);
+	color: white; 
+	cursor: pointer;
+	border: 2px solid rgb(255, 255, 255, 0.15);
+}
+
+.communication{
+	margin-top: 0px;
+}
+
+.links{
+	display: flex;
+	align-items: flex-start;
+	background-image: url(img/links.png);
+	width: 310px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+	margin-left: -20px;
+}
+
+#link{
+	height: 100%;
+	width: 49px;
+	border-radius: 50%;
+}
+
+#links:hover{
+	cursor: pointer;
+}
+
+.twitter{
+	margin-left: 32px;
+	border-radius: 50%;
+}
+
+.facebook{
+	border-radius: 50%;
+}
+
+.in{
+	border-radius: 50%;
+}
+
+.google{
+	border-radius: 50%;
+}
+
+.youtube{
+	border-radius: 50%;
+}
+
+.twitter:hover{
+	cursor: pointer;
+}
+
+.facebook:hover{
+	cursor: pointer;
+}
+
+.google:hover{
+	cursor: pointer;
+}
+
+.in:hover{
+	cursor: pointer;
+}
+
+.youtube:hover{
+	cursor: pointer;
+}
+
+@media (max-width: 992px) {
+	.header-img img{
+		float: left;
+	}
+
+	.aboutBlock-img img{
+		float: left;
+	}
+
+	.reviews-txt{
+	margin: -15px 0 0 0px;
+	padding: 15px 30px 0 20px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.reviews-txt{
+	margin: -15px 0 0 0px;
+	padding: 15px 30px 0 20px;
+	}
+}
+
+@media (max-width: 767px) {
+}
