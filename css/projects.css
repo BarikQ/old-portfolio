@@ -38,8 +38,8 @@ body{
 .first-block{
 	background-image: url(../img/doge.jpg);
 	background-size: cover;
-	height: 950px;
 	background-position: center;
+	height: 100vh;
 }
 
 nav{
@@ -51,6 +51,7 @@ nav{
 	color: white;
 	height: 100px;
 	background-color: rgba(0, 0, 0, 0);
+	z-index: 100;
 }
 
 .navList > ul > li{
@@ -123,14 +124,6 @@ h2{
 	margin-top: 50px;
 }
 
-.skills-list-left{
-	margin-top: -50px;
-}
-
-.skills-list-right{
-	margin-top: -50px;
-}
-
 .skills-list li{
 	list-style-type: none;
 	color: #0eefcade;
@@ -174,26 +167,32 @@ h2{
 	background-image: url(../img/landing.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	background-position-x: center;
+	background-position-y: 0;
 }
 
 #blackAndWhite{
 	background-image: url(../img/black.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-
+	background-position-x: center;
+	background-position-y: 0;
 }
 
 #prsGame{
 	background-image: url(../img/prsGame.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 0;
 }
 
 #skyrim{
 	background-image: url(../img/skyrim3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 0;
 }
 
 .projects-txt{
@@ -264,6 +263,20 @@ h2{
 	}
 }
 
+@media (max-width: 524px){
+	nav{
+		text-align: center;
+		padding: 0;
+	}
+
+	.navList > ul > li{
+		padding-left: 8px;
+	}
+
+	.top-block{
+		padding: 150px 15px;
+	}
+}
 
 
 
