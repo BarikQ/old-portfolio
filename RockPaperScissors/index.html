@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  
+  <body>
+    <header>
+        <h1> Rock Paper Scissors </h1>
+    </header>
+    
+    <div class="score-board">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="computer-label">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="img/rock.png">
+        </div>
+        <div class="choice" id="p">
+            <img src="img/paper.png">
+        </div>
+        <div class="choice" id="s">
+            <img src="img/scissors.png">
+        </div>
+    </div> 
+
+    <div id="action-message">
+        Make your move.
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
