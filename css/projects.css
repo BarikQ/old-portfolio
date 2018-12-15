@@ -81,7 +81,7 @@ h2{
 	/* color: rgb(237, 100, 100); */
 	color: white;
 	cursor: pointer;
-	border: 1px white solid;
+	border: 1px #0eefcade solid;
 	border-radius: 4px;
 	text-decoration: none;
 }
@@ -242,7 +242,7 @@ h2{
 .bottom-links a:hover{
 	color: white;
 	cursor: pointer;
-	border: 1px white solid;
+	border: 1px #0eefcade solid;
 	border-radius: 4px;
 	text-decoration: none;
 	cursor: pointer;
