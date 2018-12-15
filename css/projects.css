@@ -1,0 +1,261 @@
+@font-face{
+	font-family: Tangerine;
+	src: url(../fonts/Tang/Tangerine-Regular.ttf);
+}
+
+@font-face	{
+	font-family: Courgette;
+	src: url(../fonts/Cour/Courgette-Regular.ttf);
+}
+
+@font-face{
+	font-family: Asap;
+	src: url(..fonts/Asap/Asap-regular.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Asap;
+	font-size: 20px;
+	background-color: black;
+	background-repeat: no-repeat;
+	color: white;
+	/* #ef1d26
+	#860b75
+	#4b1e7b
+	#173082 */
+}
+
+.colorText{
+	color: #0eefcade;
+}
+
+.first-block{
+	background-image: url(../img/doge.jpg);
+	background-size: cover;
+	height: 950px;
+}
+
+nav{
+	position: fixed;
+	right: 0;
+	top: 0;
+	text-align: right;
+	padding: 20px 50px;
+	color: white;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.navList > ul > li{
+	font-size: 16px;
+	padding-left: 25px;
+	margin-top: 15px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+}
+
+.listLinks{
+	padding: 10px 30px;
+}
+
+.navList a:hover{
+	/* color: rgb(237, 100, 100); */
+	color: #0eefcade;
+	cursor: pointer;
+	border: 1px white solid;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.top-block{
+	width: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 150px;
+}
+
+.scrollButton{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.top-block-button{
+	display: flex;
+	background-image: url(../img/arrow.png);
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+	border-radius: 55%;
+}
+
+.top-block-button:hover{
+	cursor: pointer;
+}
+
+.aboutMe-block{
+	background-color: #4a457aeb;
+	padding: 120px 50px;
+}
+
+.aboutMe-block h2{
+	color: #0eefcade;
+}
+
+.aboutMe-block .container{
+	margin-top: 50px;
+}
+
+.skills-list-left{
+	margin-top: -50px;
+}
+
+.skills-list-right{
+	margin-top: -50px;
+}
+
+.skills-list li{
+	list-style-type: none;
+	color: #0eefcade;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 14px;
+}
+
+.skills-list li:hover{
+	color: white;
+}
+
+.about-txt{
+	color: white;
+	text-align: center;
+	font-size: 22px;
+}
+
+.projects-block{
+	padding: 120px 50px;
+	background-color: #373665;
+}
+
+.projects-block h2{
+	color: #0eefcade;
+}
+
+.projects-left{
+	margin-top: 50px;
+	height: 180px;
+	border-radius: 2px;
+}
+
+.projects-right{
+	margin-top: 50px;
+	height: 180px;
+	border-radius: 4px;
+}
+
+#landing{
+	background-image: url(../img/landing.png);
+}
+
+#blackAndWhite{
+	background-image: url(../img/black.png);
+}
+
+#prsGame{
+	background-image: url(../img/prsGame.jpg);
+	background-size: cover;
+}
+
+#skyrim{
+	background-image: url(../img/skyrim3.jpg);
+	background-size: cover;
+}
+
+.projects-txt{
+	position: absolute;
+    top: 0;
+    right: 0%;
+    background-color: rgb(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-tansition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s ease;
+	text-align: center;
+	color: #0eefca;
+	padding-top: 70px;
+}
+
+.projects-txt:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.communication-block{
+	background-color: #4a457aeb;
+	padding: 120px 50px;
+	text-align: center;
+}
+
+.communication-block h2{
+	color: #0eefcade;
+}
+
+.communication-block li{
+	font-size: 16px;
+	padding-left: 25px;
+	margin-top: 15px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+.communication-block a{
+	color: #0eefcade;
+}
+
+.communication-block a:hover{
+	color: white;
+	cursor: pointer;
+	border: 1px white solid;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
