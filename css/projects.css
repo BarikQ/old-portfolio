@@ -314,6 +314,7 @@ h2{
 		padding: 0;
 		display: flex;
 		color: #0eefcade;
+		position: absolute;
 	}
 
 	.navList > ul > li{
