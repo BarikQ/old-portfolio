@@ -327,7 +327,7 @@ ul{
 
 .popup_close{
     position: absolute;
-    top: -2rem;
+    top: -4rem;
     right: .5rem;
     text-decoration: none;
     display: inline-block;
@@ -346,35 +346,5 @@ ul{
     background: #293335;
     color: #91abaa;
     margin-top: 2rem;
-    padding: 2rem 1rem 1rem;
+    padding: 5rem 0 0rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
