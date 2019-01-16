@@ -327,7 +327,7 @@ ul{
 
 .popup_close{
     position: absolute;
-    top: -4rem;
+    top: -2rem;
     right: .5rem;
     text-decoration: none;
     display: inline-block;
